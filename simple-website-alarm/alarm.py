@@ -1,15 +1,14 @@
 import time
 import webbrowser
-
-setAlarm = raw_input("Set Website alarm as H:M:S ")
-url = raw_input("Website URL please ")
-actualTime = time.strftime("%I:%M:%S")
-
-while(actualTime != setAlarm):
-    print("Time is : "+actualTime)
-    actualTime = time.strftime("%I:%M:%S")
+Alarm = input("Set the website alarm as H:M:S: ")
+url = input("Enter the website you want to open: ")
+Actual_Time = time.strftime("%I:%M:%S")
+while Actual_Time != Alarm:
+    print ("The time is " + Actual_Time)
+    Actual_Time = time.strftime("%I:%M:%S")
     time.sleep(1)
 
-if(actualTime == setAlarm):
-    print("Webpage should be seen...")
-    webbrowser.open(url)
+if Actual_Time == Alarm:
+        print ("You should see your webpage now :-)")
+        webbrowser.open(url)
+        
