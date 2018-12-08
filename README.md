@@ -1,3 +1,3 @@
-# Python By Example
+# Python, Python & more Python
 
-Personal repository for small scripts (in python) in all fields
+This is my personal repository for all the learnings & small python projects. This may include some tiny codes, data structures, algorithms and everything in between (some in-depth articles included).
